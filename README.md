@@ -70,7 +70,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## iNSTRUCCIONES DE INSTALACIÓN, CONFIGURACIÓN Y ARRANQUE DEL PROYECTO
 Bienvenidos a una experiencia Laravel!
 -  1.- Ubicarse en una carpeta en el disco local 
--  2.- Clonar el proyecto: git clone ..... 
+-  2.- Clonar el proyecto: git clone https://github.com/jaimesoto/clase_aut.git
 -  3.- Abrir la carpeta: "cd clase_aut" 
 -  4.- Correr "composer update" 
 -  5.- Crear archivo ".env" (lo puede copiar del example) 
