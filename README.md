@@ -1,3 +1,12 @@
+## Prof. Jaime E Soto U
+## I. U. Pascual Bravo
+## Facultad de Ingeniería
+
+Proyecto Integrador de Aula de los cursos del Programa de Ingeniería de Software:
+- Base de Datos I
+- Desarrollo Web con nuevas tecnologías
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
