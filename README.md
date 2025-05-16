@@ -69,15 +69,15 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## iNSTRUCCIONES DE INSTALACIÓN, CONFIGURACIÓN Y ARRANQUE DEL PROYECTO
 Bienvenidos a una experiencia Laravel!
-- ** 1.- Ubicarse en una carpeta en el disco local 
-- ** 2.- Clonar el proyecto: git clone ..... 
-3.- Abrir la carpeta: "cd clase_aut" 
-4.- Correr "composer update" 
-5.- Crear archivo ".env" (lo puede copiar del example) 
-6.- Configurar la base de datos en el ".env" 
-7.- Crear la base de datos en pgAdmin4 "aut" 
-8.- Correr en consola "php artisan migrate" 
-9.- Desde Visual Studio Code: Abrir 2 terminales (una para Artisan y la otra para Node) 
-10.- Arrancar Artisan en un terminal: "php artisan serve" -> http://localhost:8000 
-11.- Arrancar Node en el otro terminal: "npm install" (primero) "npm run dev" (después) 
-12.- Ir al explorador y acceder a la URL http://localhost:8000
+-  1.- Ubicarse en una carpeta en el disco local 
+-  2.- Clonar el proyecto: git clone ..... 
+-  3.- Abrir la carpeta: "cd clase_aut" 
+-  4.- Correr "composer update" 
+-  5.- Crear archivo ".env" (lo puede copiar del example) 
+-  6.- Configurar la base de datos en el ".env" 
+-  7.- Crear la base de datos en pgAdmin4 "aut" 
+-  8.- Correr en consola "php artisan migrate" 
+-  9.- Desde Visual Studio Code: Abrir 2 terminales (una para Artisan y la otra para Node) 
+- 10.- Arrancar Artisan en un terminal: "php artisan serve" -> http://localhost:8000 
+- 11.- Arrancar Node en el otro terminal: "npm install" (primero) "npm run dev" (después) 
+- 12.- Ir al explorador y acceder a la URL http://localhost:8000
