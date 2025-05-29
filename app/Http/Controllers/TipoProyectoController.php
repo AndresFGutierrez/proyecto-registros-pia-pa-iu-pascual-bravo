@@ -5,54 +5,50 @@ namespace App\Http\Controllers;
 use App\Models\TipoProyecto;
 use Illuminate\Http\Request;
 
-class TipoProyectoController extends Controller {
-    
-    public function index() {
+class TipoProyectoController extends Controller
+{
+    public function index()
+    {
         $tipos = TipoProyecto::all();
-        return view('tipo_proyectos.index', compact('tipos'));
+        return view('tipos_proyecto.index', compact('tipos'));
     }
 
-    public function create() {
-        //dd("HOLA!");
-        return view('tipo_proyectos.create');
+    public function create()
+    {
+        return view('tipos_proyecto.create');
     }
 
-    public function store(Request $request) {
-        //dd($request->all());
+    public function store(Request $request)
+    {
         $request->validate([
-            'codigo' => 'required|string|max:10',
-            'descripcion' => 'required|string|max:255',
+            'nombre' => 'required|string|max:100'
         ]);
-
-
-        //dd($request->all());
-
         TipoProyecto::create($request->all());
-
-        return redirect()->route('tipo-proyectos.index')
-                         ->with('success', 'Tipo de proyecto creado exitosamente.');
+        return redirect()->route('tipos_proyecto.index')->with('success', 'Tipo de proyecto creado correctamente.');
     }
 
-    public function edit(TipoProyecto $tipoProyecto) {
-        return view('tipo_proyectos.edit', compact('tipoProyecto'));
+    public function show(TipoProyecto $tipos_proyecto)
+    {
+        return view('tipos_proyecto.show', compact('tipos_proyecto'));
     }
 
-    public function update(Request $request, TipoProyecto $tipoProyecto) {
+    public function edit(TipoProyecto $tipos_proyecto)
+    {
+        return view('tipos_proyecto.edit', compact('tipos_proyecto'));
+    }
+
+    public function update(Request $request, TipoProyecto $tipos_proyecto)
+    {
         $request->validate([
-            'codigo' => 'required|string|max:10',
-            'descripcion' => 'required|string|max:255',
+            'nombre' => 'required|string|max:100'
         ]);
-
-        $tipoProyecto->update($request->all());
-
-        return redirect()->route('tipo-proyectos.index')
-                         ->with('success', 'Tipo de proyecto actualizado.');
+        $tipos_proyecto->update($request->all());
+        return redirect()->route('tipos_proyecto.index')->with('success', 'Tipo de proyecto actualizado correctamente.');
     }
 
-    public function destroy(TipoProyecto $tipoProyecto) {
-        $tipoProyecto->delete();
-
-        return redirect()->route('tipo-proyectos.index')
-                         ->with('success', 'Tipo de proyecto eliminado.');
+    public function destroy(TipoProyecto $tipos_proyecto)
+    {
+        $tipos_proyecto->delete();
+        return redirect()->route('tipos_proyecto.index')->with('success', 'Tipo de proyecto eliminado correctamente.');
     }
 }
