@@ -43,7 +43,7 @@
             </div>
             <div class="flex items-center justify-between">
                 <a href="{{ route('estudiantes.index') }}" class="text-blue-600 hover:underline">Volver</a>
-                <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Actualizar</button>
+                <button type="submit" class="bg-blue-600 text-black px-4 py-2 rounded hover:bg-blue-700">Actualizar</button>
             </div>
         </form>
     </div>
