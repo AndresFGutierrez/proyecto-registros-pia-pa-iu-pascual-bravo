@@ -1,0 +1,86 @@
+CREATE TABLE institucion (
+    id_institucion SERIAL PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE facultad (
+    id_facultad SERIAL PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    id_institucion INTEGER REFERENCES institucion(id_institucion)
+);
+
+CREATE TABLE departamento (
+    id_departamento SERIAL PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    id_facultad INTEGER REFERENCES facultad(id_facultad)
+);
+
+CREATE TABLE programa (
+    id_programa SERIAL PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    id_departamento INTEGER REFERENCES departamento(id_departamento)
+);
+
+CREATE TABLE asignatura (
+    id_asignatura SERIAL PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    id_programa INTEGER REFERENCES programa(id_programa)
+);
+
+CREATE TABLE docente (
+    id_docente SERIAL PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE,
+    cedula INTEGER
+);
+
+CREATE TABLE estudiante (
+    id_estudiante SERIAL PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE,
+    id_programa INTEGER REFERENCES programa(id_programa),
+    cedula INTEGER
+);
+
+CREATE TABLE evaluador (
+    id_evaluador SERIAL PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    cedula INTEGER,
+    email VARCHAR(100) UNIQUE
+);
+
+CREATE TABLE tipo_proyecto (
+    id_tipo SERIAL PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE proyecto (
+    id_proyecto SERIAL PRIMARY KEY,
+    titulo VARCHAR(200) NOT NULL,
+    descripcion TEXT,
+    id_tipo INTEGER REFERENCES tipo_proyecto(id_tipo)
+);
+
+CREATE TABLE evaluacion (
+    id_evaluacion SERIAL PRIMARY KEY,
+    fecha DATE NOT NULL,
+    observaciones TEXT
+);
+
+-- RELACIONES M:N CON ATRIBUTOS ADICIONALES
+
+CREATE TABLE proyecto_asignatura (
+    id_proyecto INTEGER REFERENCES proyecto(id_proyecto),
+    id_asignatura INTEGER REFERENCES asignatura(id_asignatura),
+    grupo VARCHAR(50),
+    id_docente INTEGER REFERENCES docente(id_docente),
+    PRIMARY KEY (id_proyecto, id_asignatura, id_docente)
+);
+
+CREATE TABLE proyecto_evaluacion (
+    id_proyecto INTEGER REFERENCES proyecto(id_proyecto),
+    id_evaluacion INTEGER REFERENCES evaluacion(id_evaluacion),
+    id_evaluador INTEGER REFERENCES evaluador(id_evaluador),
+    resultado TEXT,
+    PRIMARY KEY (id_proyecto, id_evaluacion, id_evaluador)
+);
