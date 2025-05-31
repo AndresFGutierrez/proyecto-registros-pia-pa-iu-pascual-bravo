@@ -1,3 +1,17 @@
+## Información del Proyecto
+
+Este proyecto fue **clonado del repositorio original del profesor Jaime** con fines académicos.
+
+Posteriormente, fue **modificado por el Equipo D**, conformado por:
+
+- Andrés Gutiérrez  
+- Nicolás Cataño  
+- Julián Ramírez  
+- Kevin Vallejo  
+- Emanuel Sánchez
+
+Los cambios incluyen mejoras en el diseño visual, organización de código y funcionalidades específicas adaptadas al contexto del equipo.
+
 ## Prof. Jaime E Soto U
 ## I. U. Pascual Bravo
 ## Facultad de Ingeniería
@@ -6,6 +20,26 @@ Proyecto Integrador de Aula de los cursos del Programa de Ingeniería de Softwar
 - Base de Datos I
 - Desarrollo Web con nuevas tecnologías
 
+## Integrantes del Equipo D
+
+![Andrés Gutiérrez](https://media.licdn.com/dms/image/v2/D4E03AQEWtxWztMmpYQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1701543556576?e=1753920000&v=beta&t=m7_xuv4loxL5_isRYAE-gqDBn2ZBNjKD7TuM1fHUCKo)
+**Andrés Gutiérrez**
+
+![Nicolás Cataño](https://media.licdn.com/dms/image/v2/D4D03AQGFrWojYoRfKg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1676584194687?e=1753920000&v=beta&t=tbM7QvcOmeSiPrs1b-yAh9Ti-Fnz1jtzVvR9pQcnF_Q)
+**Nicolás Cataño**
+
+![Julián Ramírez](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAY1BMVEUAAABGRkY1NTU5OTkVFRUpKSm8vLxCQkJqamoICAgjIyMmJiY+Pj4uLi4YGBhNTU0PDw9XV1diYmIdHR2Kior4+Ph8fHxxcXGRkZHJycmioqKbm5tSUlJcXFyCgoLd3d2wsLC0KwfRAAABiklEQVR4nO3W2Y6cMBCF4TLGzY5ZetgyMHn/p4yBqBdlcptCyv9dILC4OCoXZUQAAAAAAAAAAAAAAACA/05tCu0If7Jtoh3hlTtqVLYmXG1nM+08h8on8e9QeZsm1wgVl77KzlAmbWvtOMFeF2d8f4Sq1jTa15SLVbiwc5n1VpyPMpP6UKjcKG9hYmzeSF+GAvXSlK0L990wxqqhCmuSqJf6LE3cS7QOQ2dUM4UcVWnsszB9OozeKeY5ZX3lmsdT49tIMczT28cWq4+pJtrlb2s+DTrFcoUuTxJT9i9LbrsH06iW6dtKfY57pSqlRA/vPdX89b1/KKtfv744HS/wmxC7MKeeh3B1XybNLj/kbxPdWTHDj2X71A0Vzr4inH02NPYq+bZ4yddtmXQby7mwdY01kWxf92aap3DERN2q31ZSJEktt4+brLdbty9cIFNsjcuOUHKfF/UJdXKmDL8JRyjzcx4vMahCqH2mH6FkmNML7N3DGepi/NxpRwAAAAAAAAAAAAAAAAAg8gsQYg3fWX/wGgAAAABJRU5ErkJggg==)
+**Julián Ramírez**
+
+![Kevin Vallejo](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAY1BMVEUAAABGRkY1NTU5OTkVFRUpKSm8vLxCQkJqamoICAgjIyMmJiY+Pj4uLi4YGBhNTU0PDw9XV1diYmIdHR2Kior4+Ph8fHxxcXGRkZHJycmioqKbm5tSUlJcXFyCgoLd3d2wsLC0KwfRAAABiklEQVR4nO3W2Y6cMBCF4TLGzY5ZetgyMHn/p4yBqBdlcptCyv9dILC4OCoXZUQAAAAAAAAAAAAAAACA/05tCu0If7Jtoh3hlTtqVLYmXG1nM+08h8on8e9QeZsm1wgVl77KzlAmbWvtOMFeF2d8f4Sq1jTa15SLVbiwc5n1VpyPMpP6UKjcKG9hYmzeSF+GAvXSlK0L990wxqqhCmuSqJf6LE3cS7QOQ2dUM4UcVWnsszB9OozeKeY5ZX3lmsdT49tIMczT28cWq4+pJtrlb2s+DTrFcoUuTxJT9i9LbrsH06iW6dtKfY57pSqlRA/vPdX89b1/KKtfv744HS/wmxC7MKeeh3B1XybNLj/kbxPdWTHDj2X71A0Vzr4inH02NPYq+bZ4yddtmXQby7mwdY01kWxf92aap3DERN2q31ZSJEktt4+brLdbty9cIFNsjcuOUHKfF/UJdXKmDL8JRyjzcx4vMahCqH2mH6FkmNML7N3DGepi/NxpRwAAAAAAAAAAAAAAAAAg8gsQYg3fWX/wGgAAAABJRU5ErkJggg==)
+**Kevin Vallejo**
+
+![Emanuel Sánchez](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAY1BMVEUAAABGRkY1NTU5OTkVFRUpKSm8vLxCQkJqamoICAgjIyMmJiY+Pj4uLi4YGBhNTU0PDw9XV1diYmIdHR2Kior4+Ph8fHxxcXGRkZHJycmioqKbm5tSUlJcXFyCgoLd3d2wsLC0KwfRAAABiklEQVR4nO3W2Y6cMBCF4TLGzY5ZetgyMHn/p4yBqBdlcptCyv9dILC4OCoXZUQAAAAAAAAAAAAAAACA/05tCu0If7Jtoh3hlTtqVLYmXG1nM+08h8on8e9QeZsm1wgVl77KzlAmbWvtOMFeF2d8f4Sq1jTa15SLVbiwc5n1VpyPMpP6UKjcKG9hYmzeSF+GAvXSlK0L990wxqqhCmuSqJf6LE3cS7QOQ2dUM4UcVWnsszB9OozeKeY5ZX3lmsdT49tIMczT28cWq4+pJtrlb2s+DTrFcoUuTxJT9i9LbrsH06iW6dtKfY57pSqlRA/vPdX89b1/KKtfv744HS/wmxC7MKeeh3B1XybNLj/kbxPdWTHDj2X71A0Vzr4inH02NPYq+bZ4yddtmXQby7mwdY01kWxf92aap3DERN2q31ZSJEktt4+brLdbty9cIFNsjcuOUHKfF/UJdXKmDL8JRyjzcx4vMahCqH2mH6FkmNML7N3DGepi/NxpRwAAAAAAAAAAAAAAAAAg8gsQYg3fWX/wGgAAAABJRU5ErkJggg==)
+**Emanuel Sánchez**
+
+*Pantalla principal proyecto*
+![Pantalla Principal](https://raw.githubusercontent.com/AndresFGutierrez/proyecto-registros-pia-pa-iu-pascual-bravo/refs/heads/main/documentos/CapturPantall.jpg
+)
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
